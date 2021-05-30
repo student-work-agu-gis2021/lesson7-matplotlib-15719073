@@ -22,6 +22,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 random_numbers1=np.random.rand(1000)
 random_numbers2=np.random.rand(1000)
+data=pd.DataFrame({'x':random_numbers1,'y':random_numbers2})
+data["x"]=random_numbers1
+data["y"]=random_numbers2
 # Check your random values
 print(data.head())
 
@@ -33,6 +36,7 @@ assert len(data) == 1000, "There should be 1000 rows of data."
 # 
 
 # YOUR CODE HERE 2 to set colors
+colors=np.random.rand(1000)
 
 # This test print should print out 10 first numbers in the variable colors
 print(colors[0:10])
