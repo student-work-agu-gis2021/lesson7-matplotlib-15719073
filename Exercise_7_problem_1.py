@@ -58,6 +58,13 @@ assert len(colors) == 1000, "There should be 1000 random numbers for colors"
 
 # Plot a scatter plot
 # YOUR CODE HERE 3
+title="My random candy points"
+xla="x-label"
+yla="y-label"
+plt.title(title)
+plt.xlabel(xla)
+plt.ylabel(yla)
+
 
 # Add labels and title
 # YOUR CODE HERE 4
